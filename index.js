@@ -1,4 +1,4 @@
-var processSite = require('../node-car-scraper');
+var processSite = require('node-car-scraper');
 var S = require('string');
 S.extendPrototype();
 var bmwURL = 'http://www.zimbrickbmw.com/VehicleSearchResults?pageContext=VehicleSearch&search' + 
@@ -6,7 +6,7 @@ var bmwURL = 'http://www.zimbrickbmw.com/VehicleSearchResults?pageContext=Vehicl
 'Dr.&trim=All&stockOrVIN=&minPrice=-2147483648&maxPrice=50000&minYear=2004&maxYear=2014&minMileage=-' +
 '2147483648&maxMileage=2147483647&minMPG=-2147483648&maxMPG=2147483647';
 
-var BMW = require('./bmw');
+var BMW = require('./lib/bmw');
 BMW = new BMW();
 
 var fs = require('fs');
