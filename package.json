@@ -1,0 +1,13 @@
+{
+  "name": "node-car-examples",
+  "description": "examples",
+  "author": "Jason Tarasovic <jason@tarasovic.com",
+  "dependencies": {
+    "node-car-scraper": "jtarasovic/node-car-scraper"
+  },
+  "private": true,
+  "license": "GPLv2",
+  "engines": {
+  	"node": "0.10.26"
+  }
+}
