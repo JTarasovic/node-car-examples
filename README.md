@@ -1,8 +1,15 @@
 node-car-examples
 =================
 
-
 Included are a few simple examples of using the [node-car-scraper](https://github.com/JTarasovic/node-car-scraper) wrapper.
+
+* [Installation](#installation)
+* [Running](#running)
+* [Results](#viewing-the-results-webpage)
+* [Adapting](#adapting-these-examples)
+* [Debugging](#debugging)
+
+
 
 ### Installation
 ##### Install Node
@@ -129,3 +136,9 @@ function finished (){
     console.log('WOOT! Finished!');
 };
 ```
+### Debugging
+`NODE_ENV=debug node fileToRun.js`
+
+Using the debug flag causes `node-car-scrapper` to output quite a lot of information about what it is doing to stdout. As such, it may be helpful to redirect fd 1 (stdout) to a file.
+
+`NODE_ENV=debug node fileToRun.js > debug.log`
