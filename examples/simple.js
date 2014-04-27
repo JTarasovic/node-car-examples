@@ -10,7 +10,7 @@ function one (err, $, cb) {
 }
 
 function oneb (err, $, cb) {
-	var arr = ['http://www.epic.com', 'http://nodejs.org']; 
+	var arr = ['https://developer.mozilla.org', 'http://nodejs.org']; 
 	return cb(arr);
 }
 

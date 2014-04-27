@@ -21,7 +21,7 @@ This version just passes a site (reddit.com) to `node-car-scraper` which fetches
 ```javascript
 processSite('http://www.reddit.com', oneb, two, three, four);
 function oneb (err, $, cb) {
-	var arr = ['https://www.developer.mozilla.org', 'http://nodejs.org']; 
+	var arr = ['https://developer.mozilla.org', 'http://nodejs.org']; 
 	return cb(arr);
 }
 ```
