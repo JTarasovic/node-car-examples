@@ -6,7 +6,7 @@ Included are a few simple examples of using the [node-car-scraper](https://githu
 
 There are a couple of options:
 
-Export a class that contains the necessary callback functions.
+Export a class that contains the necessary callback functions. See [bmw.js](lib/bmw.js) for more details on this method.
 
 ```
 var processSite = require('node-car-scraper');
