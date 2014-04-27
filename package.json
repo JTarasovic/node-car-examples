@@ -4,7 +4,14 @@
   "author": "Jason Tarasovic <jason@tarasovic.com",
   "dependencies": {
     "node-car-scraper": "jtarasovic/node-car-scraper",
-    "string": "1.8.1"
+    "string": "1.8.1",
+    "mongodb": "1.4.2",
+    "cheerio": "0.15.0",
+    "connect": "2.14.5",
+    "async": "0.7.0",
+    "string": "1.8.1",
+    "accounting": "0.3.2",
+    "tablesorter": "mottie/tablesorter"
   },
   "private": true,
   "license": "GPLv2",

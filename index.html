@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+      <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+      <title>Cars</title>
+      <link rel="stylesheet" href="/node_modules/tablesorter/css/theme.default.css" type="text/css" id="" media="print, projection, screen" />
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+      <script type="text/javascript" src="/node_modules/tablesorter/js/jquery.tablesorter.min.js"></script> 
+      <script type="text/javascript" id="js">$(document).ready(function() 
+          { 
+              // extend the default setting to always include the zebra widget. 
+              $.tablesorter.defaults.widgets = ['zebra']; 
+              // call the tablesorter plugin 
+              $("#myTable").tablesorter({
+                  sortList: [[0,1],[4,0]]
+              }); 
+          }); 
+      </script>
+  </head>
+  <body>
+  	<div id="dynamicTable">
+  	</div>
+  </body>

@@ -1,8 +1,7 @@
-var processSiteOne = require('node-car-scraper');
 var processSite = require('node-car-scraper');
 var S = require('string').extendPrototype();
 
-processSiteOne('http://www.google.com',one,two,three);
+//processSite('http://www.google.com',one,two,three);
 processSite('http://www.reddit.com', oneb, two, three, four);
 
 function one (err, $, cb) {
