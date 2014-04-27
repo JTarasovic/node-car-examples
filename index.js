@@ -30,15 +30,19 @@ var add = function (obj, callback) {
         },
         function (err, result) {
             if (err) {
+                console.log(err);
                 callback(err);
+            } else {
+                callback(null);
             }
+            return;
         });
-    callback();
+    return;
 };
 
 
 var BMW = require('./lib/bmw');
-BMW = new BMW(add);
+BMW = new BMW(add, kill);
 
 
 db.connect('mongodb://127.0.0.1:27017/test',
