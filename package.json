@@ -1,6 +1,7 @@
 {
   "name": "node-car-examples",
   "description": "examples",
+  "version": "0.0.1",
   "author": "Jason Tarasovic <jason@tarasovic.com",
   "dependencies": {
     "node-car-scraper": "jtarasovic/node-car-scraper",
